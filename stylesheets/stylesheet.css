@@ -253,7 +253,25 @@ td {
 
 form {
   background: #f2f2f2;
-  padding: 20px;
+  /*padding: 20px;*/
+}
+
+fieldset {
+	padding-left: 20px;
+}
+
+.credentials label {
+	display: inline-block;
+	width: 140px;
+	text-align: right;
+	padding-right: 20px;
+}
+.credentials .app-type label {
+	display: inline-block;
+	width: auto;
+}
+.credentials input[type="text"] {
+	width: 250px;
 }
 
 /*******************************************************************************
