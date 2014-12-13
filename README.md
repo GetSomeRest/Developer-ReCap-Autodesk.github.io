@@ -11,7 +11,7 @@ Anyone and everyone is welcome to contribute. Please see our [guidelines for con
 
 ## License
 
-This sample is licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT). Please see the [LICENSE](LICENSE) file for full details.
+These samples are licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT). Please see the [LICENSE](LICENSE) file for full details.
 
 
 ## Written by
