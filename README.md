@@ -1,5 +1,8 @@
 ##Developer-ReCap-Autodesk.github.io
-Landing page for all of our projects.
+Landing page for all of our ReCap Photo API projects.
+
+Checkout - http://developer-recap-autodesk.github.io/
+
 
 
 ## Contributing
