@@ -9,8 +9,8 @@
     depth: 2,
     segments: 4,
     slices: 4,
-    xRange: 0.4,
-    yRange: 0.4,
+    xRange: 0.2,
+    yRange: 0.2,
     zRange: 1.0,
     ambient: '#3566CC',
     diffuse: '#deff3b',
@@ -86,7 +86,7 @@
     createMesh();
     createLights();
     addEventListeners();
-    resize(container.offsetWidth, /*container.offsetHeight*/238);
+    resize(container.offsetWidth, container.offsetHeight);
     animate();  
   }
 
@@ -180,6 +180,7 @@
   }
 
   function resize(width, height) {
+	height =238 ;
     renderer.setSize(width, height);
     FSS.Vector3.set(center, renderer.halfWidth, renderer.halfHeight);
     createMesh();
