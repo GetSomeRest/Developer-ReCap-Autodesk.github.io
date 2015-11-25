@@ -1065,7 +1065,6 @@ header {
 	position: relative;
 	background-size: cover;
 	opacity: .85;
-	height: 238px;
 }
 
 .page-header.admin-page-header {
@@ -1081,7 +1080,6 @@ header {
 	/* Retina-specific stuff here */
 	.page-header.api-detail-header.view-and-data-api {
 		background: url("../img/Banner_ApiDetail_2x.png") transparent;
-		height: 477px;
 	}
 }
 
