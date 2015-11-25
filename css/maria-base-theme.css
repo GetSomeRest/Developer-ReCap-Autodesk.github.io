@@ -1061,10 +1061,14 @@ header {
 }
 
 .page-header.api-detail-header.view-and-data-api {
-	background: url("../img/Banner_ApiDetail.png") transparent;
+	/*background: url("../img/Banner_ApiDetail.png") transparent;
 	position: relative;
 	background-size: cover;
-	opacity: .85;
+	opacity: .85;*/
+	background-color: transparent;
+	position: absolute;
+	top: 0px;
+	left: 0px;
 }
 
 .page-header.admin-page-header {
@@ -1079,7 +1083,7 @@ header {
 (min-resolution: 192dpi) {
 	/* Retina-specific stuff here */
 	.page-header.api-detail-header.view-and-data-api {
-		background: url("../img/Banner_ApiDetail_2x.png") transparent;
+		/*background: url("../img/Banner_ApiDetail_2x.png") transparent;*/
 	}
 }
 
