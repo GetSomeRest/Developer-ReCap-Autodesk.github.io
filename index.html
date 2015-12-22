@@ -237,70 +237,18 @@
 
                                 <ol>
                                     <li>Make sure that the photogrammetry technology gives satisfactory results for the use case.<br />
-                                        <i>Using the generic <a href="https://recap360.autodesk.com/">Autodesk ReCap 360</a> WEB application, you should be able to create a 3D models.</i></li>
+                                        <i>Using the generic <a href="https://recap360.autodesk.com/">Autodesk ReCap 360</a> WEB application, 
+										you should be able to create a 3D models.</i></li>
                                     <li>Discuss the use case and the business case with an Autodesk representative<br />
-                                        <i>You should discuss the use case, the type of application, and the business model with an Autodesk representative. From this discussion, Autodesk
-                                            can make a proposal for the number of cloud credits to be applied to this use case per project.
-                                            Drop an email to Dominique Pouliquen to start the discussion at <a href="mailto:recap.api@autodesk.com?subject=ReCap Photo Project Discussion">ReCap Photo API</a></i></li>
-                                    <li>Subscribe to <a href="http://www.autodesk.com/joinadn">Autodesk Developer Network</a> program (aka ADN)</li>
-                                    <li>Receive all the necessary ReCap Photo WEB API credentials using the form below, and resources to start the development</li>
-                                    <li>Get support from the <a href="mailto:recap.api@autodesk.com?subject=ReCap support">ADN team</a> on using the API.</li>
+                                        <i>Autodesk can propose the number of cloud credits to be applied for your use case. Email
+										<a href="mailto:recap.api@autodesk.com?subject=ReCap Photo Project Discussion">Dominique Pouliquen</a>
+										to start the discussion.</a></i></li>
+                                    <li>If you do not have an ADN subscription yet, subscribe at <a href="http://www.autodesk.com/joinadn">Autodesk Developer Network</a> program (aka ADN)</li>
+                                    <li>Receive all the necessary ReCap Photo WEB API credentials, and resources to start the development
+										<a href="https://developer.autodesk.com/api/recap-photo-api/">here</a></li>
+                                    <li><a href="http://rc-api-adn.autodesk.com/3.1/api-docs/">Access the API documentation</a> and samples below and develop away!</li>
                                 </ol>
-
-                                <button id="get-my-credentials" class="btn-block mybutton">I talked to Dominique and I joined the ADN program - Create an App</button>
-                                <script>
-                                    $('#get-my-credentials').click (function (evt) {
-                                        evt.stopPropagation () ;
-                                        $('#get-my-credentials-form').toggleClass ('noshow') ;
-                                    }) ;
-                                </script>
-
-                                <div id="get-my-credentials-form" class="noshow">
-                                    <br />
-                                    <h4>ReCap Photo WEB API credentials request form</h4>
-
-                                    <form class="credentials" action="mailto:recap.api@autodesk.com?subject=Credentials request" method="post" enctype="text/plain">
-                                        <legend>Applicant Details:</legend>
-                                        <fieldset>
-                                            <label for="company-name">Company Name</label>
-                                            <input id="company-name" name="company-name" type="text" placeholder="Company Name" required autofocus /><br />
-                                            <label for="contact-email"> Contact Email</label>
-                                            <input id="contact-email" name="contact-email" type="text" placeholder="Contact email address" required autofocus /><br />
-                                            <label for="contact-name">Contact Name</label>
-                                            <input id="contact-name" name="contact-name" type="text" placeholder="Firstname Lastname" required autofocus /><br />
-                                            <label for="adn-id">ADN ID</label>
-                                            <input id="adn-id" name="adn-id" type="text" placeholder="ADN #" required autofocus /><br />
-                                        </fieldset>
-                                        <legend>Application Details:</legend>
-                                        <fieldset>
-                                            <label for="application-name">Application Name</label>
-                                            <input id="application-name" name="application-name" type="text" placeholder="Application Name" required autofocus /><br />
-                                            <label for="callback-url">Callback URL</label>
-                                            <input id="callback-url" name="callback-url" type="text" placeholder="http://localhost/" required autofocus /><br />
-                                            <div class="app-type">
-                                                <label>Application Type</label>
-                                                <div>
-                                                    <input id="web" name="application-type" type="checkbox" value="WEB" />
-                                                    <label for="web">WEB</label>
-                                                    <input id="desktop" name="application-type" type="checkbox" value="Desktop" />
-                                                    <label for="desktop">Desktop</label>
-                                                    <input id="mobile" name="application-type" type="checkbox" value="Mobile" />
-                                                    <label for="mobile">Mobile</label>
-                                                    <input id="backend" name="application-type" type="checkbox" value="Backend" />
-                                                    <label for="backend">Backend Service</label>
-                                                </div>
-                                            </div>
-                                        </fieldset>
-
-                                        <br />
-                                        <input type="hidden" name="environment" value="production" />
-                                        <input type="hidden" name="API-endpoint" value="http://rc-api-adn.autodesk.com/3.1/ - http://rc-api-adn.autodesk.com/*/" />
-
-                                        <center><input type="submit" class="mybutton" value="Request my oAuth key pair" /></center>
-                                    </form>
-                                </div>
-
-                            </div>
+							</div>
 
                             <!-- Sample Code -->
                             <div class="app-api-section">
